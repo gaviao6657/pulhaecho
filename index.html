@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PulhaEcho — Beat Store</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/wavesurfer.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="cover-wrap">
+    <img id="cover-img" src="" alt="Cover" class="cover">
+  </div>
+  <div class="header-inner">
+    <h1 id="site-title">Pulha Echo Sound</h1>
+    <p id="site-tag">Official Beat Store</p>
+    <div class="actions">
+      <a id="admin-link" href="admin.html">Admin</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="carousel" id="carousel"></section>
+
+  <section class="controls">
+    <label>Category:</label>
+    <select id="category-select"></select>
+    <button id="refresh">Refresh</button>
+    <button id="download-pack" class="primary">Download Pack (category)</button>
+  </section>
+
+  <section id="beat-grid" class="beat-grid"></section>
+</main>
+
+<footer class="footer">Pulha Echo Sound ©</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
