@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulhaEchoSound - Loja de Beats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>PulhaEchoSound Beats</h1>
+        <nav>
+            <a href="#destaques">Destaques</a>
+            <a href="#loja">Loja</a>
+            <a href="https://www.tiktok.com/@pulhaechosound" target="_blank">TikTok</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="destaques">
+            <h2>🔥 Beats em Destaque</h2>
+            <div id="destaques-grid" class="grid-container">
+                </div>
+        </section>
+
+        <section id="loja">
+            <h2>🎧 Loja de Beats</h2>
+            
+            <div class="filtros">
+                <label for="categoria-select">Filtrar por Categoria:</label>
+                <select id="categoria-select">
+                    <option value="todos">Todas as Categorias</option>
+                    </select>
+            </div>
+            
+            <div id="loja-grid" class="grid-container">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PulhaEchoSound. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    
+    <script src="app.js"></script>
+</body>
+</html>
