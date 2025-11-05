@@ -4,8 +4,8 @@
 // 3. Clique em "API"
 // 4. Copie o "Project URL" e a "Project API Key" (a chave 'anon public') para aqui:
 
-const SUPABASE_URL = 'URL_DO_SEU_PROJETO_AQUI'; // Cole a URL aqui
-const SUPABASE_KEY = 'CHAVE_ANON_PUBLICA_AQUI'; // Cole a Chave aqui
+const SUPABASE_URL = 'https://khyjbzjycgqhthtcszwn.supabase.co'; // Cole a URL aqui
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtoeWpiemp5Y2dxaHRodGNzenduIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjIyMTMzMDMsImV4cCI6MjA3Nzc4OTMwM30.VAGIBs1bx1cLx0D3rnnSoNDLcIFgolmGTriy5WPn_GM'; // Cole a Chave aqui
 
 // --- FIM DA CONFIGURAÇÃO ---
 
